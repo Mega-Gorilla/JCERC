@@ -14,9 +14,9 @@ This dataset consists of JSON files that transcribe the question texts and answe
 
 ## JSON Structure / Jsonファイルの構造
 
-The JSON files provide the text of the question "stem," as well as the "context" necessary to answer the question. Additionally, they include various "choices" for the answers, along with corresponding labels (1, 2, 3, 4). The files also contain the "answerKey" indicating the correct answer and the "score" representing the points for the question. The "id" refers to the question number, for instance, "JCUE_kokugo_2024_1_1_1" indicates University Entrance Examination 2024 - Question 1 - Subquestion 1 - Answer Option 1.
+The JSON files provide the text of the question "stem," as well as the "context" necessary to answer the question. Additionally, they include various "choices" for the answers, along with corresponding labels (1, 2, 3, 4). The files also contain the "answerKey" indicating the correct answer and the "score" representing the points for the question. The "id" refers to the question number, for instance, "JCUE_kokugo_2024_1_1_1" indicates University Entrance Exam 2024 - Question 1 - Subquestion 1 - Answer Option 1.
 
-Jsonファイルには質問の文"stem"および問題を解答するのに必要な"context"が提供され、さらに様々な回答の"choices"、およびそれらに対応するラベル(1,2,3,4)が含まれています。そのほかに、回答を示す"anserKey"とその問題の点数を示す"socre"が含まれます。またidは、問題番号を指し、"JCUE_kokugo_2024_1_1_1"の場合、2024粘度大学共通テスト-問題番号1-設問1-解答番号1を示しています。
+Jsonファイルには質問の文"stem"および問題を解答するのに必要な"context"が提供され、さらに様々な回答の"choices"、およびそれらに対応するラベル(1,2,3,4)が含まれています。そのほかに、回答を示す"anserKey"とその問題の点数を示す"socre"が含まれます。またidは、問題番号を指し、"JCUE_kokugo_2024_1_1_1"の場合、2024年度大学共通テスト-問題番号1-設問1-解答番号1を示しています。
 
 ```
 {
