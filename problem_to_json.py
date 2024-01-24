@@ -57,7 +57,6 @@ def main(page: ft.Page):
     import os
 
     def generate_json():
-        txt_json_output.value = ""
         # 入力データを基にJSONデータを構築
         new_data = {
             "id": txt_id.value,
@@ -89,7 +88,7 @@ def main(page: ft.Page):
             json.dump(existing_data, f, ensure_ascii=False, indent=4)
 
         # JSONをテキストウィジェットに表示
-        txt_json_output.value = json.dumps(existing_data, ensure_ascii=False, indent=4)
+        txt_json_output.value = json.dumps(new_data, ensure_ascii=False, indent=4)
 
         # ページを更新し、保存したファイル名を通知
         txt_json_output.value += f"\n\nJSON data saved to {filename}"
