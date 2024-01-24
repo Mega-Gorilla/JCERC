@@ -60,3 +60,9 @@ This Python file provides an editor for creating the aforementioned JSON data fi
 This dataset is currently a solo project by Me. We are actively seeking volunteers to collaborate and contribute to this project!
 
 このデータセットは、猩々博士が１人で製作しており、有志にて協力してくれる方を募集中です！！
+
+# References / 参考
+
+2024 University Entrance Examination Questions - Mainichi Newspapers
+2024年度 大学入学共通テスト 本試験 問題 - 毎日新聞社
+https://mainichi.jp/exam/kyotsu-2024/q/?sub=NTL
