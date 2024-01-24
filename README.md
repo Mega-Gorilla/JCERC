@@ -12,7 +12,7 @@ This dataset consists of JSON files that transcribe the question texts and answe
 
 このデータセットは2024年度大学共通テストの問題文をおよび回答を書き起こしたJsonファイルで構成されています。
 
-### JSON Structure / Jsonファイルの構造
+## JSON Structure / Jsonファイルの構造
 
 The JSON files provide the text of the question "stem," as well as the "context" necessary to answer the question. Additionally, they include various "choices" for the answers, along with corresponding labels (1, 2, 3, 4). The files also contain the "answerKey" indicating the correct answer and the "score" representing the points for the question. The "id" refers to the question number, for instance, "JCUE_kokugo_2024_1_1_1" indicates University Entrance Examination 2024 - Question 1 - Subquestion 1 - Answer Option 1.
 
@@ -48,7 +48,7 @@ Jsonファイルには質問の文"stem"および問題を解答するのに必�
     }
 ```
 
-### problem_to_json.py
+## problem_to_json.py
 
 This Python file provides an editor for creating the aforementioned JSON data files. The editor allows you to input the necessary information into the UI and add data in the specified format to the designated JSON file.
 
@@ -59,7 +59,7 @@ This Python file provides an editor for creating the aforementioned JSON data fi
 
 This dataset is currently a solo project by Me. We are actively seeking volunteers to collaborate and contribute to this project!
 
-このデータセットは、猩々博士が１人で製作しており、有志にて協力してくれる方を募集中です！！
+このデータセットは、猩々博士が１人で製作しており、有志にて協力してくれる方を募集中です！！連絡はXのDMでいただければ幸いです。(https://twitter.com/Mega_Gorilla_)
 
 # References / 参考
 
